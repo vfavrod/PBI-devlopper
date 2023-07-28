@@ -8,7 +8,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.119.870.0 (23.07)"
+        "value": "2.119.986.0 (23.07)"
       },
       {
         "name": "PBI_QueryOrder",
@@ -1271,7 +1271,7 @@
             "lineageTag": "ab4bfc85-1ca3-46d9-8874-55e56dc3fa5b"
           },
           {
-            "name": "Sales $",
+            "name": "Sales in $",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
