@@ -1453,6 +1453,12 @@
             ],
             "expression": "SUM('SalesFact'[Revenue])",
             "lineageTag": "a98c5d27-cfb4-4f17-acfd-5c9b78ee267a"
+          },
+          {
+            "name": "Test1",
+            "expression": "sum('Date'[Month])",
+            "formatString": "0",
+            "lineageTag": "d9e3eb53-b161-4212-a97e-2513409fef6c"
           }
         ],
         "partitions": [
