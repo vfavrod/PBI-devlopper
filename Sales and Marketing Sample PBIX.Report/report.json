@@ -73,7 +73,7 @@
       "name": "ReportSection2",
       "visualContainers": [
         {
-          "config": "{\"name\":\"VisualContainer\",\"layouts\":[{\"id\":0,\"position\":{\"x\":24.641711229946523,\"y\":7.210300429184549,\"z\":0,\"width\":436.3636363636364,\"height\":48.412017167381975}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"VanArsdel Ltd. - Market Share\",\"textStyle\":{\"fontSize\":\"21pt\"}}]}]}}]}}}",
+          "config": "{\"name\":\"VisualContainer\",\"layouts\":[{\"id\":0,\"position\":{\"x\":24.641711229946523,\"y\":7.210300429184549,\"z\":0,\"width\":436.3636363636364,\"height\":48.412017167381975}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"VanArsdel Ltd. - Market Share- test\",\"textStyle\":{\"fontSize\":\"21pt\"}}]}]}}]}}}",
           "height": 48.41,
           "width": 436.36,
           "x": 24.64,
