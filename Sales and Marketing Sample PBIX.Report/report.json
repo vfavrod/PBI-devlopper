@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.42\",\"themeCollection\":{},\"activeSectionIndex\":0,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2}",
+  "config": "{\"version\":\"5.46\",\"themeCollection\":{},\"activeSectionIndex\":0,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2}",
   "layoutOptimization": 0,
   "sections": [
     {
@@ -90,21 +90,21 @@
           "z": 1000.00
         },
         {
-          "config": "{\"name\":\"VisualContainer2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":26,\"y\":66,\"z\":2000,\"width\":125,\"height\":67}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"select\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"SalesFact\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Total Category Volume\"},\"Name\":\"select\"}]}}}",
+          "config": "{\"name\":\"VisualContainer2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":24.627078384798097,\"y\":66.25,\"z\":2000,\"width\":386.28028503562945,\"height\":66.875}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"SalesFact.Total Category Volume\"},{\"queryRef\":\"SalesFact.% Unit Market Share YOY Change\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"SalesFact\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Total Category Volume\"},\"Name\":\"SalesFact.Total Category Volume\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"% Unit Market Share YOY Change\"},\"Name\":\"SalesFact.% Unit Market Share YOY Change\",\"NativeReferenceName\":\"% Unit Market Share YOY Change\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Total Category Volume\"}}}]},\"hasDefaultSort\":true}}",
           "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Date\"}},\"Property\":\"Running Year\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Running Year\"}},\"Right\":{\"Literal\":{\"Value\":\"1L\"}}}}}]},\"type\":\"Categorical\",\"howCreated\":1}]",
-          "height": 67.00,
-          "width": 125.00,
-          "x": 26.00,
-          "y": 66.00,
+          "height": 66.88,
+          "width": 386.28,
+          "x": 24.63,
+          "y": 66.25,
           "z": 2000.00
         },
         {
-          "config": "{\"name\":\"VisualContainer3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.614973262032084,\"y\":221.45922746781116,\"z\":3000,\"width\":512.3422459893048,\"height\":247.21030042918454}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"select\",\"active\":true}],\"Y\":[{\"queryRef\":\"select2\"},{\"queryRef\":\"select1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"SalesFact\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"select\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"% Units Market Share R12M\"},\"Name\":\"select1\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"% Units Market Share\"},\"Name\":\"select2\"}]},\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'% Units Market Share R12M and % Units Market Share by Month'\"}}}}}]}}}",
+          "config": "{\"name\":\"VisualContainer3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":23.714964370546316,\"y\":244.375,\"z\":3000,\"width\":512.1520190023753,\"height\":224.375}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"select\",\"active\":true}],\"Y\":[{\"queryRef\":\"select2\"},{\"queryRef\":\"select1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"SalesFact\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month\"},\"Name\":\"select\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"% Units Market Share R12M\"},\"Name\":\"select1\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"% Units Market Share\"},\"Name\":\"select2\"}]},\"objects\":{\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'% Units Market Share R12M and % Units Market Share by Month'\"}}}}}]}}}",
           "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Date\"}},\"Property\":\"Running Year\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Running Year\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"1L\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1}]",
-          "height": 247.21,
-          "width": 512.34,
-          "x": 23.61,
-          "y": 221.46,
+          "height": 224.38,
+          "width": 512.15,
+          "x": 23.71,
+          "y": 244.38,
           "z": 3000.00
         },
         {
@@ -132,15 +132,6 @@
           "x": 449.71,
           "y": 31.93,
           "z": 6000.00
-        },
-        {
-          "config": "{\"name\":\"VisualContainer7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":180,\"y\":66,\"z\":7000,\"width\":123,\"height\":75}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"select\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"SalesFact\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"% Units Market Share\"},\"Name\":\"select\"}]}}}",
-          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Date\"}},\"Property\":\"Running Year\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Running Year\"}},\"Right\":{\"Literal\":{\"Value\":\"1L\"}}}}}]},\"type\":\"Categorical\",\"howCreated\":1}]",
-          "height": 75.00,
-          "width": 123.00,
-          "x": 180.00,
-          "y": 66.00,
-          "z": 7000.00
         },
         {
           "config": "{\"name\":\"VisualContainer8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":533.903743315508,\"y\":6.180257510729613,\"z\":8000,\"width\":425.06951871657753,\"height\":41.201716738197426}}],\"singleVisual\":{\"visualType\":\"textbox\",\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"% Unit Market Share YOY Change by Rolling Period and Region\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"11pt\"}}]}]}}]}}}",
