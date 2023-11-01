@@ -17,6 +17,10 @@
       {
         "name": "PBI_ProTooling",
         "value": "[\"DevMode\"]"
+      },
+      {
+        "name": "__TEdtr",
+        "value": "1"
       }
     ],
     "culture": "en-US",
@@ -357,6 +361,7 @@
                 "value": "{\"currencyCulture\":\"en-US\"}"
               }
             ],
+            "description": "Calculates the sum of revenue for the Previous Year",
             "expression": "CALCULATE(SUM(Sales[Revenue]),SAMEPERIODLASTYEAR('Date'[Date]))",
             "formatString": "\\$#,0.00;(\\$#,0.00);\\$#,0.00",
             "lineageTag": "bd49c349-5773-4b88-b15e-a01d393ee9a0"
@@ -366,18 +371,6 @@
             "expression": "DIVIDE(SUM(Sales[Revenue])-[PY Sales],[PY Sales])",
             "formatString": "0.00%;-0.00%;0.00%",
             "lineageTag": "07ca62c6-46a2-4d74-9100-9ab7fb79ed8f"
-          },
-          {
-            "name": "Bar",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"currencyCulture\":\"en-US\"}"
-              }
-            ],
-            "expression": "SUM(Sales[Revenue])",
-            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
-            "lineageTag": "06e056db-a8e8-4cf6-a24e-e698c7d7b66b"
           },
           {
             "name": "VanArsdel Sales",
